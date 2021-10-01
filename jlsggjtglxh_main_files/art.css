@@ -1,0 +1,266 @@
+<style>
+
+    p,a,span{font-family:"微软雅黑"}
+    .s1 {
+        color: red;
+    }
+    .s2 {
+        margin: 0px !important;
+    }
+    .s3 {
+        color: #999999;
+        float: right;
+    }
+    .header_bg {
+        width: 678px;
+        margin-bottom: 10px;
+        line-height: 45px;
+        background: #0050b3;
+        font-size: 17px;
+        float: right;
+        margin-top: 65px;
+    }
+    .header_li {
+        margin-left: 37px;
+        font-size: 17px;
+        font-weight: bold;
+        color: #FFFFFF;
+        float: left;
+        border-bottom: 2px solid #0050b3;
+    }
+    .header_li:hover {
+        border-bottom: #FFFFFF solid 2px;
+    }
+    .header_li:first-child {
+        margin-left: 0px;
+        margin-right: 6px;
+    }
+    .header_bg a {
+        color: #FFFFFF;
+    }
+    .wip_bg {
+        width: 100%;
+clear: both;
+    }
+    .wip_art table {
+        max-width:100% !important;
+        border-spacing: 0;
+        border-collapse: collapse;width: 100%;
+    }
+    img {
+        max-width: 100% !important;
+        border: 0px !important;
+        vertical-align: middle;
+    }
+    .bdshare_dialog_bg {
+        width: auto !important;
+        height: auto !important;
+    }
+.gk-bq{
+margin-bottom: 20px;
+margin-top: 0 !important;
+}
+    .bd_weixin_popup {
+        width: auto !important;
+        height: auto !important;
+    }
+    .bd_weixin_popup .bd_weixin_popup_foot {
+        width: 256px !important;
+        height: auto !important;
+    }
+    .bdshare_dialog_bg {
+        height: 329px !important;
+        width: 300px !important;
+    }
+    .bd_weixin_popup {
+        height: auto !important;
+    }
+    .bigwz {
+        font-size: 16px !important;
+    }
+    .numwz {
+        font-size: 14px !important;
+    }
+    .smallwz {
+        font-size: 12px !important;
+    }
+    .clearfix:after {
+        content: '';
+        display: block;
+        clear: both;
+        height: 0px;
+    }
+    .wip_local {
+        width: 1100px;
+        margin: 0px auto;
+        height: 54px;
+        color: #666666;
+        font-size: 17px;
+        background-color: #fff;
+        padding:0 25px 0 25px;
+    }
+    .wip_local td {
+        line-height: 47px;
+        color: #666666;
+        font-size: 17px;
+    }
+    .wip_local a {
+        color: #666666;
+        font-size: 17px;
+        line-height: 54px;
+    }
+    .wip_col {
+        width: 1100px;
+        margin: 0px auto 30px;
+        overflow: hidden;
+    }
+    .wip_art_conbg {
+        width: 100%;
+        max-width: 1100px;
+        margin: 0px auto;
+        padding-top:42px;
+        padding-bottom: 15px;
+        background-color: #fff;
+    }
+    .wip_art {
+        width:90%;
+        margin: 0px auto;
+    }
+    .wip_art .htitle {
+        font-size: 27px;
+        color: #333333;
+        padding-bottom: 10px;
+        border-bottom: #dbdbdb 2px solid;
+      
+        text-align: center;  
+    }
+    .wip_art h2 a {
+        color: #000000;
+    }
+    .share_bg {
+       height:50px;line-height:50px;display:block;
+       padding-left: 90px;
+    }
+    .sign {
+        min-width: 276px;
+        font-size: 15px;
+        color: #333333;
+        text-align: center;
+    }
+    .time {
+        margin-top: -5px;
+        width: 155px;
+        float: right;
+        display: block;
+    }
+    .art_con {
+        margin-top: 30px;
+        min-height: 220px;
+        text-align: justify;
+    }
+    .art_con, .art_con p, .art_con p a {
+        font-size: 15px;
+        color: #333333;
+        line-height: 30px;
+    }
+    .art_con, .art_con p, .art_con div {
+        text-align: justify;
+        word-break: break-all;
+        font-size: 15px;
+        color: #333333;
+        letter-spacing: 0;
+        margin: 24px 0;
+        max-width: 100% !important;
+    }
+    .last_next {
+        width: 100%;
+        border-top: 1px #c5c5c5 dotted;
+        margin-top:20px;
+        font-size: 15px;
+        color: #333333;
+        line-height: 30px;
+        padding-top: 10px;
+    }
+    .last_next a {
+        color: #333333;
+    }
+    .edit_bg {
+        margin-top: 20px;
+    }
+    .edit {
+        font-size: 15px;
+        color: #333333;
+        margin-top: 15px;
+    }
+    .edit a {
+        color: #333333;
+    }
+    .append {
+        width: 100%;
+        height: auto;
+        background: #f1f1f1;
+        height: 40px;
+        line-height: 40px;
+        padding-right: 0px;
+        margin-top: 40px;text-align: right;
+    }
+    .bug {
+        font-size: 15px;
+        color: #333333;
+        margin-right: 22px;
+    }
+    .bug a {
+        color: #333333;
+    }
+    .bug img {
+        margin-right: 10px;
+        margin-bottom: 7px;
+        margin-top: 5px;
+    }
+    .top_small, .dibu_smalll {
+        display: none;
+    }
+    @media (min-width:1025px) and (max-width:1199px) {
+        .wip_local{width:100%;}
+    }
+    @media (min-width:768px) and (max-width:1024px){
+         .wip_local{width:100%;}
+         .bdsharebuttonbox{ display: none;}
+         .wip_art_conbg{max-width:100% !important;}
+          #share-2{display:none;}
+    }
+    @media only screen and (max-width: 767px) {
+        #share-2{display:none;}
+        .body {
+            min-width: 100%;
+        }
+        .wip_art_conbg{max-width:100% !important;}
+        .wip_local{width:100%;}
+        .top_small, .dibu_smalll {
+            display: block;
+        }
+        .share_bg{padding-left:inherit !important;}
+        .hide_s {
+            display: none;
+        }
+        .wip_art .htitle {
+            font-size: 21px;
+        }
+        
+        .sign{float:none !important;min-width:inherit !important;}
+        .wip_art_conbg {
+            border: none;
+        }
+        .xxgk{display: none;}
+    }
+  @media (max-width: 1024px){
+        .backstretch{
+            display: none;
+        }
+    }
+  @media (max-width: 414px){
+.gk-l2>span {
+    margin: 0 auto;
+}
+}
+</style>
