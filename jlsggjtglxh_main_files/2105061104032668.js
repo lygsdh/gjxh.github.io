@@ -516,8 +516,8 @@ document.writeln("            </div>");
 document.writeln("            <div class=\'footcenter bt-left\'>");
 document.writeln("                <p class=\'bon\'>");
 document.writeln("                </p>");
-document.writeln("                <p>主办：吉林省城市公共交通协会  地址：长春市南关区南部新城公交枢纽站内正南方向20米  电话：0431-85808115  邮编：130000</p>");
-document.writeln("                <p class=\'show\'><span>主办：吉林省城市公共交通协会 </span></p>");
+document.writeln("                <p>主办单位：吉林省城市公共交通协会           电话：0431-85808115          邮编：130000</p>");
+document.writeln("                <p class=\'show\'><span>主办单位：吉林省城市公共交通协会 </span></p>");
 document.writeln("            </div>");
 
 //document.writeln("                <a style=\'margin-left:17px;\'><img src=\'https://www.dl.gov.cn/picture/2/2006051441028516450.png\'></a>");

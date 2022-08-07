@@ -60,6 +60,9 @@ a {
 	font-size: 31px;
 	color: #0050b3;
 	font-weight: bold;
+	line-height: normal;
+	font-style: normal;
+	text-align: center;
 }
 
 .box-1 {
